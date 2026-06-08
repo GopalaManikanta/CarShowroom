@@ -1,3 +1,5 @@
+import profileImg from "../assets/112.JPG.jpeg";
+
 export default function Profile() {
   return (
     <div className="page">
@@ -5,7 +7,7 @@ export default function Profile() {
 
       <div className="profile-card">
         <img
-          src="src/assets/112.JPG.jpeg"
+          src={profileImg}
           alt="profile"
           className="profile-img"
         />
